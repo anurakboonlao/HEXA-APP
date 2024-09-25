@@ -345,7 +345,7 @@ class MemberController extends Controller
 
             $response = [
                 'status' => false,
-                'message' => "Invite Code ไม่ถูกต้อง",
+                'message' => "Invite Code ไม่ถูกต้องนะ",
             ];
 
             return redirect()->back()->with('message', $response);
